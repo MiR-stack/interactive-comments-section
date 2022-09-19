@@ -1,0 +1,138 @@
+$Red: hsl(1, 90%, 64%);
+$Blue: hsl(219, 85%, 26%);
+$White: hsl(0, 0%, 100%);
+$Very_light_grayish_blue: hsl(210, 60%, 98%);
+$Light_grayish_blue_1: hsl(211, 68%, 94%);
+$Light_grayish_blue_2: hsl(205, 33%, 90%);
+$Grayish_blue: hsl(219, 14%, 63%);
+$Dark_grayish_blue: hsl(219, 12%, 42%);
+$Very_dark_blue: hsl(224, 21%, 14%);
+
+.notifications {
+  width: 600px;
+  margin: 50px auto;
+  background: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 8px hsl(211, 68%, 94%);
+  font-family: "Plus Jakarta Sans", sans-serif;
+
+  .titlebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h3 {
+      color: hsl(224, 21%, 14%);
+    }
+    .unread {
+      padding: 5px 10px;
+      background-color: $Blue;
+      border-radius: 5px;
+      font-size: 10px;
+      color: white;
+      margin-left: 5px;
+    }
+    button {
+      border: none;
+      outline: none;
+      background: none;
+      color: $Dark_grayish_blue;
+      cursor: pointer;
+      font-weight: 500;
+      &:hover {
+        color: hsl(224, 21%, 14%);
+      }
+    }
+  }
+
+  main {
+    margin-top: 30px;
+  }
+
+  .notification {
+    width: 100%;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    .wraper{
+        display: flex;
+    }
+    .image {
+      height: 50px;
+      width: 50px;
+      min-width: 50px;
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+
+    header {
+      margin-left: 10px;
+      p {
+        line-height: 24px;
+      }
+
+      a {
+        text-decoration: none;
+        font-weight: 800;
+        color: hsl(224, 21%, 14%);
+        text-transform: capitalize;
+        &:hover {
+          color: hsl(219, 85%, 26%);
+        }
+      }
+      .post{
+        color:$Dark_grayish_blue;
+      }
+      span {
+        margin: 0 5px;
+        font-size: 16px;
+      }
+      p {
+        color: $Grayish_blue;
+        position: relative;
+        font-size: 15px;
+      }
+      .active {
+        position: absolute;
+        top: 50%;
+        height: 7px;
+        width: 7px;
+        background: $Red;
+        margin: 0;
+        border-radius: 50%;
+      }
+
+      .message {
+        padding: 10px;
+        border: 1px solid $Grayish_blue;
+        margin-top: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        &:hover {
+          background-color: $Light_grayish_blue_2;
+          border: none;
+        }
+      }
+    }
+    img{
+        height:50px;
+        width: 50px;
+        cursor: pointer;
+    }
+  }
+  .active_bg {
+    background-color: $Light_grayish_blue_1;
+  }
+}
+
+@media only screen and (max-width:600px){
+    .notifications{
+        width: 95%;
+    }
+}
