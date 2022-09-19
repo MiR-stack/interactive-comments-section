@@ -7,7 +7,7 @@ export default function Notifications() {
   const [notifications, setNotification] = useState(dummyNotification);
 
   const unread = notifications.filter(
-    (notification) => notification.status
+    (notification) => !notification.status
   ).length;
 
   function handleAllStatus() {
