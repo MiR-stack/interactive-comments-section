@@ -95,12 +95,10 @@ $Very_dark_blue: hsl(224, 21%, 14%);
       }
       p {
         color: $Grayish_blue;
-        position: relative;
         font-size: 15px;
       }
       .active {
-        position: absolute;
-        top: 50%;
+        display: inline-block;
         height: 7px;
         width: 7px;
         background: $Red;

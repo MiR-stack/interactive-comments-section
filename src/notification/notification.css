@@ -84,12 +84,10 @@
 }
 .notifications .notification header p {
   color: hsl(219deg, 14%, 63%);
-  position: relative;
   font-size: 15px;
 }
 .notifications .notification header .active {
-  position: absolute;
-  top: 50%;
+  display: inline-block;
   height: 7px;
   width: 7px;
   background: hsl(1deg, 90%, 64%);
