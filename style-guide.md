@@ -11,18 +11,18 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Red: hsl(1, 90%, 64%)
-- Blue: hsl(219, 85%, 26%)
+- Moderate blue: hsl(238, 40%, 52%)
+- Soft Red: hsl(358, 79%, 66%)
+- Light grayish blue: hsl(239, 57%, 85%)
+- Pale red: hsl(357, 100%, 86%)
 
 ### Neutral
 
+- Dark blue: hsl(212, 24%, 26%)
+- Grayish Blue: hsl(211, 10%, 45%)
+- Light gray: hsl(223, 19%, 93%)
+- Very light gray: hsl(228, 33%, 97%)
 - White: hsl(0, 0%, 100%)
-- Very light grayish blue: hsl(210, 60%, 98%)
-- Light grayish blue 1: hsl(211, 68%, 94%)
-- Light grayish blue 2: hsl(205, 33%, 90%)
-- Grayish blue: hsl(219, 14%, 63%)
-- Dark grayish blue: hsl(219, 12%, 42%)
-- Very dark blue: hsl(224, 21%, 14%)
 
 ## Typography
 
@@ -32,5 +32,5 @@ The designs were created to the following widths:
 
 ### Font
 
-- Family: [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans)
-- Weights: 500, 800
+- Family: [Rubik](https://fonts.google.com/specimen/Rubik)
+- Weights: 400, 500, 700
